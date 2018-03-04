@@ -1,5 +1,19 @@
-.background-image {
-  background-image: url('img/background.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
+@media (min-width: 911px) {
+  .background-image {
+    background-image: url('img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 910px) {
+  .background-image {
+    background-image: url('img/background-mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+.m-b-10 {
+  margin-bottom: 10px;
 }
